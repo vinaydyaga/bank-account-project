@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <Title>Registration</Title>
+        <style>
+            h1{
+                font-size: 40px;
+                text-align: center;
+                padding: 10px;
+                background-color: rgb(5, 115, 146);
+            }
+            label{
+                display: block;
+                font-size: 30px;
+                font-family: 'Times New Roman', Times, serif;
+                color: rgb(26, 26, 117);
+                padding-top: 10px;
+                padding-bottom: 5px;
+            }
+            input{
+                display: block;
+                padding: 5px;
+                font-size: 20px;
+                width: 100%;
+                margin-bottom: 10px;
+            }
+            form{
+                padding: 20px;
+                width: 50%;
+                border: 1px solid gray;
+                margin-left: 25%;
+                border-radius: 3%;
+            }
+            button{
+                
+                background-color: rgb(14, 114, 151);
+                border-radius: 10%;
+                border: none;
+                font-size: 20px;
+                
+            }
+            button:hover{
+                background-color: rgb(84, 156, 174);
+            }
+        </style>
+    </head>
+    <body>
+        <header><h1>Registration Form</h1></header>
+        <form method="post" action="./abc">
+            
+            <label>username:</label>
+            <input type="text" id="username" name="username" required>
+            <label>mail:</label>
+            <input type="email" id="mail" name="mail" required>
+            <label>date of birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <label>password:</label>
+            <input type="password" id="psw" name="psw" required>
+            <label>account number:</label>
+            <input type="number" id="ano" name="ano" required>
+            <button>register</button>
+            <a href="log.html">login</a>
+        </form>
+        
+    </body>
+</html>
