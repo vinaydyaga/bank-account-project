@@ -1,0 +1,59 @@
+<html>
+<head>
+<title>Withdraw</title>
+ <style>
+            h1{
+                font-size: 40px;
+                text-align: center;
+                padding: 10px;
+                background-color: rgb(5, 115, 146);
+            }
+            label{
+                display: block;
+                font-size: 30px;
+                font-family: 'Times New Roman', Times, serif;
+                color: rgb(26, 26, 117);
+                padding-top: 10px;
+                padding-bottom: 5px;
+            }
+            input{
+                display: block;
+                padding: 5px;
+                font-size: 20px;
+                width: 100%;
+                margin-bottom: 10px;
+            }
+            form{
+                padding: 20px;
+                width: 50%;
+                border: 1px solid gray;
+                margin-left: 25%;
+                border-radius: 3%;
+            }
+            button{
+                
+                background-color: rgb(14, 114, 151);
+                border-radius: 10%;
+                border: none;
+                font-size: 20px;
+                
+            }
+            button:hover{
+                background-color: rgb(84, 156, 174);
+            }
+            
+</style>
+</head>
+<body>
+<h1>Withdraw</h1>
+<form method="post" action="./withdraw">
+<label>Account number</label>
+<input type="number" id="ano" name="ano" required>
+<label>Amount</label>
+<input type="number" id="amo" name="amo" required>
+<label>Password</label>
+<input type="password" id="psw" name="psw" required>
+<button>submit</button>
+</form>
+</body>
+</html>
